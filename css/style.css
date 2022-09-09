@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #febd69;
+  width: 100%;
+  height: 60px;
+  padding: 0px 50px;
+}
+.search-bar {
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+}
+.search-bar input {
+  width: 450px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 3px 0px 0px 3px;
+}
+.btn {
+  border: none;
+  border-left: none;
+  width: 40px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #febd69;
+  border-radius: 0px 3px 3px 0px;
+}
+.btn i {
+  font-size: 22px;
+}
+.lang span {
+  width: 70px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  color: #fff;
+  border-radius: 3px;
+}
+.sign-in span {
+  color: #fff;
+  width: 100px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  border-radius: 3px;
+}
+.sign-in .option {
+  width: 120px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.lang .option {
+  width: 70px;
+  height: 30px;
+  border: none;
+  outline: none;
+  color: rgb(18, 17, 17);
+  border-radius: 3px;
+}
+/* ////////////////////////////////////// */
+.container ul {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+  list-style-type: none;
+  background-color: #232f3e;
+  color: #fff;
+}
+.container ul li a{
+    padding: 0 20px;
+    
+}
+.ecart i span{
+  padding-left: 3px;
+
+
+}
+/* ////////////////////////////////////// */
+.main{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    margin: 14px 30px;
+
+}
+.main .div1 img{
+
+    width:100% ;
+    height: 55vh;
+    
+}
+.container1{
+   height: 50vh;
+  background-color: rgb(234, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  
+}
+.container1 .items img{
+  margin: 0 40px;
+
+}
+.container1 p {
+  text-align: center;
+  text-transform: uppercase;
+}
+/* ////////////////////////////////////// */
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(18, 17, 17);
+  color: white;
+  height: 30vh;
+  padding-top: 20px;
+}
